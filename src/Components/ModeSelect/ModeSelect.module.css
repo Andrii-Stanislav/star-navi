@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 30px;
+}
+
+.button {
+    width: fit-content;
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: #0000ff;
+    transition: all 150ms linear;
+
+    user-select: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+.button:active {
+    transform: scale(0.95);
+}
