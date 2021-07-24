@@ -9,8 +9,8 @@ const StyledFieldsBox = styled.div`
     margin: 0 auto;
 
     & > * {
-        border: 1px solid black;
-        margin: 0 -1px -1px 0;
+        border: 2px solid black;
+        margin: 0 -2px -2px 0;
     }
 `;
 
